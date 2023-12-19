@@ -1,0 +1,452 @@
+/*Global Styles*/
+h2 {
+    text-decoration: underline;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h4 {
+    text-align: center;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+summary {
+    font-size: 20px;
+    background-color: white;
+    background-image: url("../media/Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 2%;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.mobileNav nav{
+    font-size: 20px;
+    color: black;
+    display: block;
+    text-align: right;
+}
+
+body {
+    background-color: #000000;
+}
+
+footer {
+    font-size: .7em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.nav {
+    display: none;
+}
+
+main {
+    background: white;
+}
+
+/*Main Page CSS*/
+.state {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    text-align: center;
+    background-image: url("../media/NewBackground.png");
+    background-size: cover;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 32px;
+    margin-bottom:-20px;
+    font-weight:bolder;
+}
+
+.feature img{
+    width: 100%;
+}
+
+.featureText {
+    background-color: white;
+    padding: 2em;
+    margin-top: -4em;
+    text-align: center;
+    font-size: 14px;
+}
+
+.feature {
+    align-self: auto;
+    padding-top: 2em;
+}
+
+.design img{
+    width: 100%;
+}
+
+.designText {
+    background-color: white;
+    padding: 2em;
+    margin-top: -4em;
+    text-align: center;
+    font-size: 14px;
+}
+
+.design {
+    align-self: auto;
+    padding-top: 1em;
+}
+
+#statement{
+    background-color: white;
+    padding: 2em;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+#statement p{
+    font-size: 20px;
+}
+
+/*Design style*/
+
+#step1 {
+    background-color: white;
+    background-image: url("../media/Step1.jpg");
+    background-position-y: center;
+    background-size: 60%;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-left: 63%;
+    padding-right: 3%;
+    font-size: 18px;
+    height: 500px;
+}
+
+#step1Exert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#step2 {
+    background-image: url("../media/render3.png");
+    background-position-y: center;
+    background-size: 60%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-right: 63%;
+    padding-left: 3%;
+    height: 500px;
+    font-size: 18px;
+}
+
+#step2Exert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#step3 {
+    background-image: url("../media/roundSlab.jpg");
+    background-position-y: center;
+    background-size: 60%;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-left: 63%;
+    padding-right: 3%;
+    height: 500px;
+    font-size: 18px;
+}
+
+#step3Exert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+/*Tools Style*/
+
+#tools_img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2em;
+}
+
+#tools {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Contact Syles*/
+#con-container{
+    padding-top: 6em;
+    padding-bottom: 6em;
+    width: 100%;
+    background-image: url("../media/NewBackground.png");
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1em;
+	width: 80%;
+    padding-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ td, tr, th {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+table {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*Products Styles*/
+
+#feature {
+    width: 80%;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#feature img {
+    width: 80%;
+}
+
+#feature h3 {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 16px;
+}
+
+.product-grid {
+    width: 90%;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2em;
+}
+
+.prod-img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.prod {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*About Styles*/
+
+.size-img {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+#firstP, #secondP, #thirdP, #fourthP {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media (min-width: 650px){
+    #tools_img {
+        width: 100%;
+    }
+
+    .mobileNav{
+        display: none;
+    }
+
+    .nav{
+        display: contents;
+    }
+
+    .nav nav{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: right;
+        background-color: white;
+        background-image: url("../media/Logo.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: 2%;
+        text-align: center; 
+    }
+    
+    .nav nav a{
+        color: black;
+        font-size: 14px;
+        text-decoration: none;
+        border-right: 1px solid #000000;
+        padding-right: 1em;
+    }
+    nav a:last-child{
+        border-right: none;
+    }
+
+    .tool_grid {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /*contact style*/
+    form {
+        display: grid;
+        width: 60%;
+        grid-gap: 1em;
+        grid-template-columns: 10em 1fr;
+    }
+
+    /*Products*/
+    .product-grid {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        justify-content: space-between;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #feature h3 {
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 800px) {
+    .nav nav a{
+        font-size: 16px;
+    }
+
+    #about-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding-right: 20px;
+    }
+    
+    #about-grid img {
+        width: contain;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    #about-grid {
+        align-items: center;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #firstP, #secondP, #thirdP, #fourthP {
+        font-size: 22px;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .nav nav a{
+        font-size: 18px;
+    }
+
+    .featureContainer {
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+        margin-bottom: -20px;
+      }
+
+    .feature {
+        float: left;
+        max-width: 60%;
+        padding: 0em;
+    }
+    
+    .feature img {
+        max-width: 92%;
+        height: 100%;
+        float: left;
+        padding-right: 4rem;
+    }
+    
+    .featureText {
+        text-align: center;
+        background-color: white;
+        height: 100%;
+        font-size: 20px;
+        padding-right: 4rem;
+    }
+
+    .design {
+        padding-top: 0em;
+    }
+
+    .designContainer {
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+    }
+    
+    .design img {
+        max-width: 60%;
+        height: 100%;
+        float: right;
+        padding-left: 4rem;
+    }
+    
+    .designText {
+        text-align: center;
+        background-color: white;
+        height: 100%;
+        font-size: 20px;
+        padding-left: 4rem;
+    }
+
+    .tool_grid {
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    }
+
+}

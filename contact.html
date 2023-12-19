@@ -1,0 +1,98 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="media/Logo.jpg">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta description="A page built with contact information that you 
+            can use to reach out to us!">
+        <title>Hells Canyon Artisans</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="nav">
+                <nav>
+                    <b><a href="index.html">Home</a> &nbsp; 
+                        <a href="products.html">Products</a> &nbsp; 
+                        <a href="design.html">Custom Design</a> &nbsp;
+                        <a href="tools.html">My Tools</a> &nbsp;  
+                        <a href="about.html">About Us</a> &nbsp; 
+                        <a href="contact.html">Contact Us</a> &nbsp;  
+                    </b>
+                </nav>
+            </div>
+            <div class="mobileNav">
+                <details>
+                    <summary>Menu</summary>
+                    <nav>
+                        <b><a href="index.html">Home</a> &nbsp; <br>
+                            <a href="products.html">Products</a> &nbsp; <br>
+                            <a href="design.html">Custom Design</a> &nbsp;<br>
+                            <a href="tools.html">My Tools</a> &nbsp;<br>  
+                            <a href="about.html">About Us</a> &nbsp; <br>
+                            <a href="contact.html">Contact Us</a> &nbsp;  
+                        </b>
+                    </nav>
+                </details>
+            </div>
+
+            <div id="con-container">
+                <h1>Contact Us!</h1>
+            </div>
+
+            <h4>Have questions, comments, or interested in commissioning 
+                a unique piece? We'd love to hear from you! Please use 
+                the form below to get in touch. Whether you're an art 
+                enthusiast, a potential collaborator, or someone with a 
+                specific vision in mind, we're here to make the process 
+                seamless. Submit the form, and we'll get back to you as 
+                soon as possible.</h4>
+
+            <table class="con_table">
+                <thead>
+                    <th>Method</th>
+                    <th>Means</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Phone</td>
+                        <td><a href="callto:1234567890">(123)456-7890</a>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><a href="mailto:jgconnor@lcmail.lcsc.edu">jgconnor@lcmail.lcsc.edu</a>
+                    </tr>
+                    <tr>
+                        <td>Mail</td>
+                        <td>PO BOX 999<br>
+                            Lewiston ID, 83501</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 id="sumbit_text">Or submit a form below!</h3>
+            
+            <form action="process-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+       
+    </body>
+
+    <footer>
+        <p>Copyright &copy; 2023 Jake Connor. All Rights Reserved.<br>
+            <a href="mailto:jgconnor@lcmail.lcsc.edu">jgconnor@lcmail.lcsc.edu</a>
+        </p>
+    </footer>
+</html>
